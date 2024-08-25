@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIYUSH VERMA</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1b7c1bd8a1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href="#header">HOME</a></li>
+                    <li> <a href="#about">ABOUT</a></li>
+                    <li> <a href="#services">SERVICES</a></li>
+                    <li> <a href="#contact">CONTACT</a></li>
+                    <li> <a href="#portfolio">PORTFOLIO</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Engineering Student</p>
+                <h1>Hi, I am <span>Piyush Verma </span> <br>from India</h1>
+
+            </div>
+        
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pi.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub">ABOUT ME</h1>
+                    <p><h2>Electronics and Instrumentation Engineering Student</h2> <br>
+                        <h3>Industry Experience | Data Analysis | Web Design | Leadership</h3> <br>
+                        <h4>I am a dedicated Electronics and Instrumentation Engineering student with hands-on industry experience, specializing in data analysis using Excel, Python, and Business Intelligence tools. My skills extend to simple website design using HTML5, CSS, and JavaScript.
+                        </h4>
+                        <h4>  <br>With a strong academic background, holding a CGPA of 9.68 from NIT Nagaland, I have consistently demonstrated excellence in my studies. My experience includes leadership roles in organizing events and volunteering, showcasing my ability to manage and lead teams effectively.
+                        </h4>
+                        <h4> 
+                            <br>I am proficient in SQL, Python, and database management, with a strong focus on problem-solving and critical thinking, essential skills that I apply to every project I undertake.
+                        </h4></p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')"> Skills </p>
+                            <p class="tab-links" onclick="opentab('Projects')"> Projects </p>
+                            <p class="tab-links" onclick="opentab('Education')"> Education </p>
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>Web Developement</span><br>Web App Developement</li>
+                                <li><span>App Developement</span><br>Cross Platform supprted Apps</li>
+                                <li><span>Application of IOT</span><br>Simple Projects for solving real world problems <br>
+                                     using IOT devices like sensors, transducers, aurdino, raspberrypi etc.  </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Projects">
+                            <ul>
+                                <li><span>Login with Captcha</span><br>Web login page using captcha</li>
+                                <li><span>To-Do-list</span><br>A simple To do list Website </li>
+                                <li><span>Calculator App</span><br>A simple cross platform supported app </li>
+                                <li><span>Cricket Dashboard </span><br>A Simple Dashboard designed using MS Excel </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2021 - 2025</span><br>Bachelor of Technology, NIT Nagaland <br>
+                                    CGPA: 9.68</li>
+                                <li><span>2019 – 2020</span><br>Intermediate <br>
+                                    Jawahar Navodaya Vidyalaya, Mitauli- Kheri <br>
+                                    Percentage: 93.6%</li>
+                                <li><span>2017 – 2018</span><br>High School <br>
+                                    Jawahar Navodaya Vidyalaya, Mitauli- Kheri <br>
+                                    Percentage: 91.6%
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                        </div>
+
+            </div>
+        </div>
+    </div>
+<div id="services">
+    <div class="container">
+        <h1 class="sub">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>get your website design</p>
+                <a href="#"> learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>App Design</h2>
+                <p>get your cross platform supported Application</p>
+                <a href="#"> learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>IOT Projects</h2>
+                <p>State your real world requirement and get complete setup</p>
+                <a href="#"> learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="irrigationsystem.png">
+                <div class="layer">
+                    <h3>Automatic irrigation</h3>
+                    <p>A smart tech solution</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Smoke-Detector-with-Arduino-MQ2-Sensor-1.jpg">
+                <div class="layer">
+                    <h3>smoke detector </h3>
+                    <p>smart gadget</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="Gas-leakage-detection-system-using-Arduino.jpg">
+                <div class="layer">
+                    <h3>Gas-leakage-detection</h3>
+                    <p>A smart home gadget</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="loginpage.png">
+                <div class="layer">
+                    <h3>Simple Login page</h3>
+                    <p>Page login using captcha</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="todolist.png">
+                <div class="layer">
+                    <h3>TO-DO-list</h3>
+                    <p>Do your work nicely</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="notes.png">
+                <div class="layer">
+                    <h3>Notes</h3>
+                    <p>Gotta everything Haphazard - use notes <br> organize every work</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> piyush25618@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +919415154811</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/piyush-verma-955ab7211/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/protagonistforever"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.hackerrank.com/profile/piyush25618"><i class="fa-brands fa-hackerrank"></i></i></a>
+                </div>
+                <a href="PIYUSH VERMA.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email " required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Piyush Verma 2024</p>
+        </div>
+    </div>
+</div>
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxLbgNA7zPCP_6qweVGDL_f8OKIqrJMEHl20gtXRUElyaixg-h-iZ4qTaM8mEAqxP4m/exec'
+    const form = document.forms['submit-to-google-sheet']
+    constmsg=document.getElementById("msg");
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => 
+            {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function() {
+                    msg.innerHTML=""
+                }, 5000);
+                form.reset()
+            }
+        )
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
